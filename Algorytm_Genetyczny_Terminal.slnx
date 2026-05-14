@@ -1,0 +1,7 @@
+<Solution>
+  <Configurations>
+    <Platform Name="x64" />
+    <Platform Name="x86" />
+  </Configurations>
+  <Project Path="Algorytm_Genetyczny_Terminal/Algorytm_Genetyczny_Terminal.vcxproj" />
+</Solution>
