@@ -3,5 +3,5 @@
     <Platform Name="x64" />
     <Platform Name="x86" />
   </Configurations>
-  <Project Path="Algorytm_Genetyczny_Terminal/Algorytm_Genetyczny_Terminal.vcxproj" />
+  <Project Path="Algorytm_Genetyczny_Terminal/Algorytm_Genetyczny_Terminal.vcxproj" Id="ae342746-a33d-49bf-b8a4-68748b4aa813" />
 </Solution>
