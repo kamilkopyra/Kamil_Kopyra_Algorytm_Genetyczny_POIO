@@ -9,6 +9,7 @@ unsigned int TPopulation::_id = 0;
 
 TPopulation::TPopulation(unsigned int cands_count)
 {
+	_id++;
 	candidated_count = cands_count;
 	for (int i = 0; i < cands_count; i++) candidates.push_back({});
 	

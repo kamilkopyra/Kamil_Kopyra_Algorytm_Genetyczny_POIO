@@ -46,3 +46,15 @@ void TKlasa::info()
 	cout << "\n\n";
 }
 
+TKlasa::~TKlasa()
+{
+	cout << "Usunięto obiekt klasy TKlasa o numerze: " << _id << "   ||      ";
+
+
+	TKlasa::count -= 1;
+	cout << "Pozostaly  " << TKlasa::count << " obiekty klasy TKlasa\n\n";
+
+
+
+}
+

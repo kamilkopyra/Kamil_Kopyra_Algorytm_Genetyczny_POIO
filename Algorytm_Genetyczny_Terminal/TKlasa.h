@@ -14,6 +14,7 @@ public:
 	unsigned int _id;
 
 	TKlasa(int init_val);
+	~TKlasa();
 
 	void set_vector_size(unsigned int size);
 	void set_init_val(int init_val);

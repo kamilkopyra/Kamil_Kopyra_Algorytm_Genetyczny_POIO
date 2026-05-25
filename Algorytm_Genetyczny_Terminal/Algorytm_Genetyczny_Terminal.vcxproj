@@ -128,12 +128,14 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="TAlgorithm.cpp" />
     <ClCompile Include="TCandidate.cpp" />
     <ClCompile Include="TKlasa.cpp" />
     <ClCompile Include="TParam.cpp" />
     <ClCompile Include="TPopulation.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="TAlgorithm.h" />
     <ClInclude Include="TCandidate.h" />
     <ClInclude Include="TKlasa.h" />
     <ClInclude Include="TParam.h" />
