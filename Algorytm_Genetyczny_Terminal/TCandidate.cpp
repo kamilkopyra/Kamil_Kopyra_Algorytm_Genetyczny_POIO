@@ -10,6 +10,21 @@ TCandidate::TCandidate()
 	rand_gens_val();
 }
 
+
+//konstruktor kopiujący
+TCandidate::TCandidate(const TCandidate& oryginal)
+	: genotype{ oryginal.genotype[0], oryginal.genotype[1] }, mark{ oryginal.mark }
+{
+	cout << "Skopiowano oryginał kandydata\n";
+}
+
+//konstruktor delegujący
+TCandidate::TCandidate(double fixed_mark) : TCandidate()
+{
+	mark = fixed_mark;
+}
+
+
 void TCandidate::rate()
 {
 	double x1 = genotype[0].get_val();

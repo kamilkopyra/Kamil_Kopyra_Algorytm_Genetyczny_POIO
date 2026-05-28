@@ -15,6 +15,8 @@ class TCandidate
 
 public:
 	TCandidate();
+	TCandidate(const TCandidate &oryginal); //konstruktor kopiujący
+	TCandidate(double fixed_mark); //konstruktor delegujący
 
 	double get_mark() { return mark; }
 	void rate();
