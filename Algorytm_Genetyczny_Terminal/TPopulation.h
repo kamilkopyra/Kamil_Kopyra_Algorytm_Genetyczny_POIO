@@ -13,6 +13,7 @@ class TPopulation
 
 public:
 	TPopulation(unsigned int cands_count = 10);
+	TPopulation(const TPopulation& oryginal);
 	void calculate();
 	TCandidate get_best_candidate();
 

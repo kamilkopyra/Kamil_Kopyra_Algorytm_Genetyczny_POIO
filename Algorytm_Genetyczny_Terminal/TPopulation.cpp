@@ -17,6 +17,15 @@ TPopulation::TPopulation(unsigned int cands_count)
 	
 }
 
+TPopulation::TPopulation(const TPopulation& oryginal) : candidated_count{ oryginal.candidated_count }, candidates{ oryginal.candidates }, best_val{ oryginal.best_val }
+{
+	_id++;
+	cout << "Skopiowano oryginał populacji\n";
+	cout << "Nadano nowe ID: " << _id << "\n";
+}
+
+
+
 void TPopulation::calculate()
 {
 	double best_val = 0.0;
